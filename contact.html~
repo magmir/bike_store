@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bike store</title>
+<style type='text/css'>
+html{
+	width:100%;
+	height:100%;
+}
+
+body {
+	margin:0;
+}
+
+#container{
+	font-size: 1.2em;
+	font-family: "Courier New";
+	text-align: left;
+	padding::0;
+	height: 690px;
+	margin-right: auto;
+	margin-left: auo;
+	weight:1300px;
+	background:url(bike_mockup-assets/back2.png);
+	
+}
+#header {
+	height: 150px;
+		}
+#content {
+	height: 400px;
+	width: 840px;
+	background: #f3f6e1;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#navbar {
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	padding-top:75px;
+	text-align:center;
+	padding-bottom:50px;
+}
+#header #navbar ul {
+	list-style-type: none;
+	padding-top: 10px;
+	
+}
+#navbar ul li {
+	display: inline;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul li a {
+	text-decoration: none;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	
+}
+
+ul li a:link, ul li a:visited {
+	text-decoration: none;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	
+}
+
+ul li a:hover, ul li a:active {
+	text-decoration: none;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: #d4842f;
+	
+}
+#main form #name {
+	display: block;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 50px;
+	font-family: courier new;
+	color: #333333;
+	width: 200px;
+}
+#main form #email {
+	display: block;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 120px;
+	font-family: courier new;
+	color: #333333;
+	width: 200px;
+}
+#main form #subject {
+	display: block;
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 50px;
+	width: 200px;
+	font-family: courier new;
+}
+#main form #message {
+	display: block;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 220px;
+	height: 50px;
+	width: 261px;
+}
+#content form button {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 300px;
+}
+
+#content button {
+	height: 35px;
+	width: 100px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+	border: 1px solid #d4842f;
+	background: -moz-linear-gradient(top,  #dba368,  #d4842f);
+	background: -webkit-gradient(linear, left top, left bottom, from(#dba368), to(#d4842f));
+	box-shadow:2px, 2px, 3px, #494747;
+	-webkit-box-shadow:2px, 2px, 3px, #494747;
+	-moz-box-shadow:2px, 2px, 3px, #494747;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	color:white;
+}
+
+#content button:hover {
+	height: 35px;
+	width: 100px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #f5c698;
+	background: -moz-linear-gradient(top,  #f0e7df,  #f5c698);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f0e7df), to(#f5c698));
+	box-shadow: 2px, 2px, 3px, #494747;
+	-webkit-box-shadow: 2px, 2px, 3px, #494747;
+	-moz-box-shadow: 2px, 2px, 3px, #494747;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+#main h1 {
+	font-family: courier new;
+	color: #d4842f;
+	font-size: 24px;
+	padding-top: 51px;
+	position: absolute;
+	padding-left: 450px;
+}
+
+#main h2 {
+	display: inline;
+	position: absolute;
+	font-family: courier new;
+	font-size: 20px;
+	font-weight: bold;
+	color: #d4842f;
+	padding-top: 100px;
+	padding-left: 450px;
+}
+#main p {
+	display: inline;
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 450px;
+	padding-top: 175px;
+}
+#main  h3 {
+	font-family: courier new;
+	font-size: 12px;
+	color: #333333;
+	position: absolute;
+	padding-left: 450px;
+	padding-top: 133px;
+}
+</style>
+
+</head>
+
+<body>
+<div id="container">
+	<div id='header'>
+    	<div id='navbar'>
+    	  <ul>
+    	    <li><a href="bike.html">HOME</a></li>
+    	    <li><a href="about.html">ABOUT</a></li>
+    	    <li><a href="store1.html">STORE</a></li>
+    	    <li><a href="contact">CONTACT</a>    	  </li>
+    	  </ul>
+    	  </div>
+    </div>
+    <div id='main'>
+    <div id='content'>
+    	<form> 
+        <input type="text" id="name" placeholder="Your name">
+        <input type="text" id="email" placeholder="Your email">
+        <input type="text" id="subject" placeholder="Subject">
+        <textarea id="message" placeholder="Your message"></textarea>
+        <button type="submit">Submit</button>
+        </form>
+        
+       <h1>LATEST BLOG POST</h1>
+		<h2>Bicycle are awsome</h2>
+		<h3>June 21, 2015</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con </p>
+        </div>
+        
+  
+</div>
+</div>
+</body>
+</html>
+

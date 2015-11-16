@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bike store</title>
+<style type='text/css'>
+html{
+	width:100%;
+	height:100%;
+}
+
+body {
+	margin:0;
+}
+
+#container{
+	font-size: 1.2em;
+	font-family: "Courier New";
+	text-align: left;
+	padding::0;
+	height: 690px;
+	margin-right: auto;
+	margin-left: auo;
+	weight:1300px;
+	background:url(bike_mockup-assets/back2.png);
+	
+}
+#header {
+	height: 150px;
+		}
+#content {
+	height: 400px;
+	width: 840px;
+	background: #f3f6e1;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#navbar {
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	padding-top:75px;
+	text-align:center;
+	padding-bottom:50px;
+}
+#header #navbar ul {
+	list-style-type: none;
+	padding-top: 10px;
+	
+}
+#navbar ul li {
+	display: inline;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul li a {
+	text-decoration: none;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	
+}
+
+ul li a:link, ul li a:visited {
+	text-decoration: none;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	
+}
+
+ul li a:hover, ul li a:active {
+	text-decoration: none;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: #d4842f;
+	
+}
+
+#content #leftSide #bike {
+	padding-top: 70px;
+	padding-left: 50px;
+}
+#content #leftSide #doyou {
+	display: inline;
+	text-align: left;
+}
+#leftSide #doyou h1 {
+	display: inline;
+	position: absolute;
+	font-family: courier new;
+	font-size: 20px;
+	font-weight: bold;
+	color: #d4842f;
+	padding-top: 71px;
+	padding-left: 30px;
+}
+#leftSide #doyou p {
+	display: inline;
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	padding-top: 108px;
+	padding-left: 30px;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+}
+#content #leftSide button {
+	margin-left: 30px;
+	position: absolute;
+	margin-top: 241px;
+	height: 35px;
+	width: 100px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+	border: 1px solid #d4842f;
+	background: -moz-linear-gradient(top,  #dba368,  #d4842f);
+	background: -webkit-gradient(linear, left top, left bottom, from(#dba368), to(#d4842f));
+	box-shadow:2px, 2px, 3px, #494747;
+	-webkit-box-shadow:2px, 2px, 3px, #494747;
+	-moz-box-shadow:2px, 2px, 3px, #494747;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	color:white;
+}
+
+#content #leftSide button:hover {
+	margin-left: 30px;
+	position: absolute;
+	margin-top: 241px;
+	height: 35px;
+	width: 100px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #f5c698;
+	background: -moz-linear-gradient(top,  #f0e7df,  #f5c698);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f0e7df), to(#f5c698));
+	box-shadow: 2px, 2px, 3px, #494747;
+	-webkit-box-shadow: 2px, 2px, 3px, #494747;
+	-moz-box-shadow: 2px, 2px, 3px, #494747;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+	
+	#rightSide #under p {
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	width: 400px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<div id="container">
+	<div id='header'>
+    	<div id='navbar'>
+    	  <ul>
+    	    <li><a href="home.html">HOME</a></li>
+    	    <li><a href="about.html">ABOUT</a></li>
+    	    <li><a href="store1.html">STORE</a></li>
+    	    <li><a href="contact.html">CONTACT</a>    	  </li>
+    	  </ul>
+    	  </div>
+    </div>
+    <div id='main'>
+    	<div id='content'>
+       	  <div id='leftSide'>
+       		  <img id='bike' src="bike_mockup-assets/movie.png" alt="Movie about our store">
+        			<div id='doyou'>
+                    	<h1>DO YOU KNOW...</h1>
+        				<p>Do you know that lates model of Lorem ipsum dolor sit amet, consectetur adipisicing                           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad                           minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea odo                           consequat. Duis aute irure. </p>
+                    </div>
+                  <a href="about.html">
+                    <button type="button">MORE INFO</button>
+          </a>       	    </div>
+        <div id='rightSide'>
+        	<div id='under'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 			               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer. </p>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+  
+</div>
+</body>
+</html>
+
